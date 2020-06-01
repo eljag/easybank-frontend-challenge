@@ -1,0 +1,12 @@
+.button{
+    background-color: magenta;
+    border: none;
+    padding: .8em 2.3em;
+    border-radius: 40px;
+    font-size: $s * 1.1;
+
+    &--cta{
+        color: $white;
+        background: linear-gradient(to left, $brightCyan,$limeGreen);
+    }
+}

@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} 
+
+
+// variable
+$mobile: 375px;
+$desktop: 1440px;
+
+:root{
+    max-width:$desktop;
+    font-family: 'Public Sans', sans-serif;
+}
+//Primary colors
+
+$darkBlue:hsl(233,26%,24%);
+$limeGreen:hsl(136,65%,51%);
+$brightCyan:hsl(192,70%,51%);
+
+//Neutral Colors
+
+$grayishBlue:hsl(233,8%,62%);
+$lightGrayishBlue:hsl(220,16%,96%);
+$veryLightGray:hsl(0,0%,98%);
+$white:hsl(0,0%,100%);
+
+
+//Typography
+
+$m: 18px;
+$xl:$m * 1.5; 
+$l: $m * 1.25;
+$s: $m * 0.8;
+$xs:$m * 0.7;
+
+//Layout
+
+$gutterVertical: 16px;

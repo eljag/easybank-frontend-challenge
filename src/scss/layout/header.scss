@@ -1,0 +1,38 @@
+.main-header{
+    display: grid;
+    grid-template-rows: 64px 284px 384px;
+    grid-template-areas: "navArea"
+                         "bannerArea"
+                         "dataArea";  
+}  
+
+.nav-bar{
+    grid-area: navArea;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 $gutterVertical * 2;
+    align-items: center;
+
+    &__toggle{
+        border: 1px solid green;
+    }
+}
+ 
+
+.main-header__banner{
+    grid-area: bannerArea;
+} 
+
+.data-inf{ 
+    grid-area: dataArea;
+    padding: 0 $gutterVertical * 2;
+
+    &__maintitle{
+        margin: $gutterVertical * 1.4 0;
+    }
+
+    &__mainsubtitle{
+        margin-bottom: $gutterVertical * 1.4;
+    }
+
+}
