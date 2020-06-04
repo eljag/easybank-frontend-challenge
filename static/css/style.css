@@ -41,9 +41,6 @@
   grid-area: dataArea;
   padding: 0 32px;
 }
-.data-inf__maintitle {
-  margin: 22.4px 0;
-}
 .data-inf__mainsubtitle {
   margin-bottom: 22.4px;
 }
@@ -102,7 +99,7 @@
 }
 
 .data-inf__secondtitle {
-  padding: 30px 0;
+  padding: 25px 0;
 }
 .data-inf__secondsubtitle {
   padding-bottom: 40px;
@@ -110,6 +107,47 @@
 
 .why-main {
   height: 1464px;
+}
+
+.latest-main {
+  height: 1900px;
+  padding-top: 68px;
+}
+
+.latest-main {
+  text-align: center;
+  background-color: #fafafa;
+}
+.latest-main__card {
+  border-radius: 5px;
+  text-align: left;
+  background-color: white;
+  height: 382px;
+  width: 340px;
+  margin: 24px auto;
+}
+
+.article-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-main {
+  padding: 32px 32px;
+}
+.card-main__autor {
+  font-size: 11.34px;
+  color: #9698a6;
+}
+.card-main__title {
+  font-size: 15.84px;
+  color: #2d314d;
+}
+.card-main__resume {
+  font-size: 12.6px;
+  color: #9698a6;
+  line-height: 1.4;
 }
 
 /*# sourceMappingURL=style.css.map */
