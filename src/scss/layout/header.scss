@@ -1,9 +1,10 @@
 .main-header{
     display: grid;
-    grid-template-rows: 64px 284px 384px;
+    grid-template-rows: 64px 284px 265px;
     grid-template-areas: "navArea"
                          "bannerArea"
-                         "dataArea";  
+                         "dataArea"; 
+    padding: 0 0 89px; 
 }  
 
 .nav-bar{

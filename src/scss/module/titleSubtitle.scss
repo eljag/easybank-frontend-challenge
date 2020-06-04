@@ -9,6 +9,19 @@
         color:$grayishBlue;
         font-size: $s;
         line-height: $m * 1.3;
-        text-align: justify;
+        text-align: center;
     } 
+
+    &__secondtitle{
+        color:$darkBlue;
+        font-size: $s * 2;
+        font-weight: 300;
+    }
+
+    &__secondsubtitle{
+        color:$grayishBlue;
+        font-size: $s;
+        line-height: $m * 1.3;
+        text-align: center;
+    }
 } 

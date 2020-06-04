@@ -1,0 +1,21 @@
+.why-main{
+    text-align: center;
+    padding: 71px $gutterVertical * 2; 
+    background-color: $lightGrayishBlue;
+    
+    &__items{
+        padding:46px 0;
+    }
+} 
+
+.data-inf{
+    &__secondtitle{
+        padding: 30px 0;
+    }
+
+    &__secondsubtitle{
+        padding-bottom:40px;
+    }
+    
+}
+

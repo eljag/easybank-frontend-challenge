@@ -17,8 +17,9 @@
 
 .main-header {
   display: grid;
-  grid-template-rows: 64px 284px 384px;
+  grid-template-rows: 64px 284px 265px;
   grid-template-areas: "navArea" "bannerArea" "dataArea";
+  padding: 0 0 89px;
 }
 
 .nav-bar {
@@ -65,7 +66,18 @@
   color: #9698a6;
   font-size: 14.4px;
   line-height: 23.4px;
-  text-align: justify;
+  text-align: center;
+}
+.data-inf__secondtitle {
+  color: #2d314d;
+  font-size: 28.8px;
+  font-weight: 300;
+}
+.data-inf__secondsubtitle {
+  color: #9698a6;
+  font-size: 14.4px;
+  line-height: 23.4px;
+  text-align: center;
 }
 
 .button {
@@ -78,6 +90,26 @@
 .button--cta {
   color: white;
   background: linear-gradient(to left, #2bb7da, #31d35c);
+}
+
+.why-main {
+  text-align: center;
+  padding: 71px 32px;
+  background-color: #f3f4f6;
+}
+.why-main__items {
+  padding: 46px 0;
+}
+
+.data-inf__secondtitle {
+  padding: 30px 0;
+}
+.data-inf__secondsubtitle {
+  padding-bottom: 40px;
+}
+
+.why-main {
+  height: 1464px;
 }
 
 /*# sourceMappingURL=style.css.map */
