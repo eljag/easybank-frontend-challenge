@@ -1,14 +1,12 @@
-.data-inf{
-    text-align: center;
-}
-
 .main-header{
     &__banner{
         
         background: url('../../assets/image-mockups.png') no-repeat center bottom, url('../../assets/bg-intro-mobile.svg') no-repeat center;
-
         background-size: 327px, cover;
-
     }
 }  
 
+.data-inf{
+    text-align: center;
+}
+  

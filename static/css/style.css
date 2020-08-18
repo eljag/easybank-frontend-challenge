@@ -75,7 +75,7 @@
   grid-area: navArea;
   display: flex;
   justify-content: space-between;
-  padding: 0 32px;
+  padding: 0 2rem;
   align-items: center;
 }
 .nav-bar__toggle {
@@ -88,13 +88,13 @@
 
 .data-inf {
   grid-area: dataArea;
-  padding: 0 32px;
+  padding: 0 2rem;
 }
 .data-inf__maintitle {
-  margin: 22.4px 0;
+  margin: 1.4rem 0;
 }
 .data-inf__mainsubtitle {
-  margin-bottom: 22.4px;
+  margin-bottom: 1.4rem;
 }
 
 .latest-main {
@@ -120,7 +120,7 @@
 
 .why-main {
   text-align: center;
-  padding: 71px 32px;
+  padding: 4rem 2rem;
   background-color: #f3f4f6;
 }
 .why-main__items {
@@ -170,13 +170,13 @@
   line-height: 1.4;
 }
 
-.data-inf {
-  text-align: center;
-}
-
 .main-header__banner {
   background: url("../../assets/image-mockups.png") no-repeat center bottom, url("../../assets/bg-intro-mobile.svg") no-repeat center;
   background-size: 327px, cover;
+}
+
+.data-inf {
+  text-align: center;
 }
 
 .main-footer {
