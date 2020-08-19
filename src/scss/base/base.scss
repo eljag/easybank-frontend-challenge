@@ -13,10 +13,17 @@ $desktop: 1440px;
     max-width:$desktop;
     font-family: 'Public Sans', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth; 
+}
+
 //Primary colors
 
 $darkBlue:hsl(233,26%,24%); 
+$darkBlueModal:rgba(45, 49, 77, 0.9); 
 $limeGreen:hsl(136,65%,51%);
+$limeGreenModal:rgba(49, 211, 92, 0.9);
 $brightCyan:hsl(192,70%,51%);
 
 //Neutral Colors
