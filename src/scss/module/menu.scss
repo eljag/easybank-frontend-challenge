@@ -12,6 +12,10 @@
     align-items: center;
     background-color: $darkBlue;
     color: $white;
+    transition: 0.3s all ease-out;
+    &--top{
+        right: calc(4.2rem + 1vw); 
+    }
 } 
 
 .hamburger-inner,

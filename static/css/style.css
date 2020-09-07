@@ -27,6 +27,10 @@ html {
   align-items: center;
   background-color: #2d314d;
   color: white;
+  transition: 0.3s all ease-out;
+}
+.panel-btn--top {
+  right: calc(4.2rem + 1vw);
 }
 
 .hamburger-inner,
@@ -103,6 +107,35 @@ html {
 .button--cta {
   color: white;
   background: linear-gradient(to left, #2bb7da, #31d35c);
+}
+
+.top-btn {
+  position: fixed;
+  z-index: 999;
+  bottom: 1vh;
+  right: calc(4.2rem + 1vw);
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d314d;
+  color: white;
+  outline: 0;
+  border: 0;
+  transition: 0.3s all ease-out;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.is-color {
+  background-color: #31d35c;
+  color: white;
 }
 
 .data-inf__maintitle {
