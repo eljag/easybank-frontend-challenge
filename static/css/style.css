@@ -25,7 +25,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2d314d;
+  background: linear-gradient(to left, #2bb7da, #31d35c);
   color: white;
   transition: 0.3s all ease-out;
 }
@@ -121,7 +121,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2d314d;
+  background: linear-gradient(to left, #2bb7da, #31d35c);
   color: white;
   outline: 0;
   border: 0;
@@ -131,11 +131,6 @@ html {
 .hidden {
   visibility: hidden;
   opacity: 0;
-}
-
-.is-color {
-  background-color: #31d35c;
-  color: white;
 }
 
 .data-inf__maintitle {
@@ -163,9 +158,8 @@ html {
 
 .main-header {
   display: grid;
-  grid-template-rows: 64px 284px 265px;
+  grid-template-rows: 64px 284px 364px;
   grid-template-areas: "navArea" "bannerArea" "dataArea";
-  padding: 0 0 89px;
 }
 
 .logo {
@@ -289,6 +283,37 @@ html {
   font-weight: 400;
   margin-top: 30px;
   color: #9698a6;
+}
+
+.dark-theme-btn {
+  position: fixed;
+  z-index: 999;
+  bottom: 1vh;
+  left: 1vw;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2b2b2b;
+  font-size: 2rem;
+  color: white;
+  outline: 0;
+  border: 0;
+  transition: 0.3s all ease-out;
+}
+
+.dark-mode {
+  background-color: #2b2b2b;
+  color: white;
+  transition: 0.3s all ease-out;
+}
+
+.is-color {
+  background: white;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
