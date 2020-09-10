@@ -11,5 +11,6 @@ d.addEventListener("DOMContentLoaded",e=>{
     //colorTheme(".top-btn");
     //colorTheme(".panel-btn");
     //colorTheme(".dark-theme-btn"); 
-    darkTheme(".dark-theme-btn","dark-mode",".logo","src"); 
-});   
+});    
+
+darkTheme(".dark-theme-btn","dark-mode",".logo","src"); 
